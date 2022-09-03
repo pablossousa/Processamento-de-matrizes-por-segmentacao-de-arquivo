@@ -12,9 +12,13 @@ Feito a leitura da composição de M para um tipo matriz em C, a segunda etapa �
 
 A resolução deste problema deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: <i>lerMatriz()</i>, <i>multMatriz()</i>, <i>initialize()</i> e <i>hash()</i>.
 
-Primeiramente, o programa entra dentro de um loop para entrada do usuário onde deve informar as opções 1 ou 2 como resposta. Caso informe a opção 1, a aplicação lerá uma matriz 1000x1000 de números naturais dentro de um arquivo e armazená-lo em uma matriz do mesmo tamanho.
+Primeiramente, em <i>lerMatriz()</i>, o programa entra dentro de um loop para entrada do usuário onde deve informar as opções 1 ou 2 como resposta. Caso informe a opção 1, a aplicação lerá uma matriz 1000x1000 de números naturais dentro de um arquivo e armazená-lo em uma matriz do mesmo tamanho.
 
-Em seguida, é pedido ao usuário para informar a linha e coluna inicial por onde o programa deve começar a ler a matriz e também o tamanho, que será a quantidade de linhas e colunas que a matriz terá (sempre será uma matriz quadrada). Logo em seguida é mostrado no console a matriz gerada, sua respectiva matriz transposta e a matriz resultante da multiplicação das duas matrizes anteriores.
+Em seguida, em <i>multMatriz()</i>, é pedido ao usuário para informar a linha e coluna inicial por onde o programa deve começar a ler a matriz e também o tamanho, que será a quantidade de linhas e colunas que a matriz terá (sempre será uma matriz quadrada). Logo em seguida é mostrado no console a matriz gerada, sua respectiva matriz transposta e a matriz resultante da multiplicação das duas matrizes anteriores.
+
+Já em relação ao método <i>initialize()</i>, ele é chamado somente uma vez para que a Hash não seja deletada e iniciada a cada execução, por isso o motivo da variável <i>cont</i>.
+
+Por último, o método <i>hash()</i>, 
 
 <p align="center">
   <img src="imagens/Screenshot_3.png">  
