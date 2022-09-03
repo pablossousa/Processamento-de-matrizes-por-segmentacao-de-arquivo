@@ -14,8 +14,7 @@ A resolução deste problema deu-se por meio de alguns métodos para auxiliar na
 
 Primeiramente, o programa entra dentro de um loop para entrada do usuário onde deve informar as opções 1 ou 2 como resposta. Caso informe a opção 1, a aplicação lerá uma matriz 1000x1000 de números naturais dentro de um arquivo e armazená-lo em uma matriz do mesmo tamanho.
 
-Em seguida, é pedido ao usuário para informar a linha e coluna inicial por onde o programa deve começar a ler a matriz e também o tamanho, que será a quantidade de linhas e colunas que o software terá (sempre será uma matriz quadrada).
-
+Em seguida, é pedido ao usuário para informar a linha e coluna inicial por onde o programa deve começar a ler a matriz e também o tamanho, que será a quantidade de linhas e colunas que a matriz terá (sempre será uma matriz quadrada). Logo em seguida é mostrado no console a matriz gerada, sua respectiva matriz transposta e a matriz resultante da multiplicação das duas matrizes anteriores.
 
 <p align="center">
   <img src="imagens/Screenshot_3.png">  
