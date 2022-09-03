@@ -9,6 +9,9 @@ Feito a leitura da composição de M para um tipo matriz em C, a segunda etapa �
 </p>
 
 <h2>Resolução</h2>
+<p align="center">
+  <img src="imagens/Screenshot_3.png">  
+</p> 
 
 <h2>Exemplo de Execução</h2>
 
