@@ -12,6 +12,13 @@ Feito a leitura da composição de M para um tipo matriz em C, a segunda etapa �
 
 <h2>Exemplo de Execução</h2>
 
+<p align="center">
+  <img src="imagens/Screenshot_1.png">  
+</p> 
+<p align="center">
+  <img src="imagens/Screenshot_2.png">  
+</p> 
+
 <h2>Compilação e Execução</h2>
 
 O progama disponibilizado possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
