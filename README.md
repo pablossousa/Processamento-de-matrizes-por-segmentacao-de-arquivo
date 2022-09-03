@@ -10,7 +10,7 @@ Feito a leitura da composição de M para um tipo matriz em C, a segunda etapa �
 
 <h2>Resolução</h2>
 
-A resolução deste problema deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: <i>lerMatriz()</i>, <i>multMatriz()</i>, <i>initialize()</i> e <i>hash()</i>.
+A resolução deste problema foi baseada de [HashTable](https://github.com/mpiress/HashTable) e deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: <i>lerMatriz()</i>, <i>multMatriz()</i>, <i>initialize()</i> e <i>hash()</i>.
 
 Primeiramente, em <i>lerMatriz()</i>, o programa entra dentro de um loop para entrada do usuário onde deve informar as opções 1 ou 2 como resposta. Caso informe a opção 1, a aplicação lerá uma matriz 1000x1000 de números naturais dentro de um arquivo e armazená-lo em uma matriz do mesmo tamanho.
 
